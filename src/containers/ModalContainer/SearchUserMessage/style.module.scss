@@ -1,0 +1,120 @@
+.search_user_message {
+        background-color: #fff;
+        width: 400px;
+        height: 435px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 12px;
+        overflow: hidden;
+      
+        .search_user_message_header {
+                display: flex;
+                // padding: 20px;
+                justify-content: space-between;
+                align-items: center;
+                padding-right: 12px;
+                border-bottom:  1px solid #f5f5f5;
+        
+                h4 {
+                        font-size: 18px;
+                        color: var(--tex-color);
+
+                }
+
+                span {
+                        font-size: 16px;
+                        color: #03a9f4;
+                        font-weight: 600;
+                        cursor: context-menu;
+                        opacity: 0.4;
+                }
+                .next_search {
+                        opacity: 1;
+                        cursor: pointer;
+                }
+        }
+
+        .search_user_message_serach  {
+                display: flex;
+                padding: 12px;
+                border-bottom:  1px solid #f5f5f5;
+                align-items: center;
+
+                span {
+                        font-size: 16px;
+                        color: var(--tex-color);
+                        font-weight: 600;
+                        margin-right: 20px;
+                }
+                .search_user_message_serach_group {
+                        margin-left: auto;
+                        flex: 1;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        div {
+                                width: auto;
+                                display: flex;
+                                align-items: center;
+                               
+
+                                .search_user_message_serach_group_item {
+                                        background-color: #f5f5f5;
+                                        border-radius: 4px;
+                                        padding: 2px 4px;
+
+                                        color: #03a9f4;
+                                        width: auto;
+                                        span:first-child {
+                                                font-weight: 400;
+                                                margin-right: 10px;
+                                                // line-height: 20px;
+                                        }
+                                        span:last-child {
+                                                font-weight: 400;
+                                               margin-top: 5px;
+                                               cursor: pointer;
+                                        }
+
+                                }
+
+                        }
+                        .search_user_message_input {
+                                padding: 4px 0;
+                                border: none;
+                                outline: none;
+                        }
+                }
+
+        }
+        .search_user_message_list_user {
+                flex: 1;
+                overflow-y: auto;
+
+
+                .search_user_message_list_user_item {
+                        padding: 12px;
+                        display: flex;
+                        align-items: center;
+                        cursor: pointer;
+                        &:hover {
+                                background-color: #f8f8f8;
+                        }
+                        .search_user_message_list_user_item_img {
+                                width: 40px;
+                                height: 40px;
+                                border-radius: 100rem;
+                                object-fit: cover;
+                                border: 1px solid #ccc;
+                        }
+                        span {
+                                font-size: 16px;
+                                font-weight: 600;
+                                color: var(--text-color);
+                                margin-left: 12px;
+                        }
+                }
+        }
+
+     
+}

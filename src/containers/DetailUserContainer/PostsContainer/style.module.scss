@@ -1,0 +1,22 @@
+.backgound {
+        width: 100%;
+        height: auto;
+        position: relative;
+     
+        // position: relative;
+        .side_intro {
+
+                .side_intro_item {
+                        position: sticky;
+                        top: 100px;
+                        left: 0;
+                }
+        }
+}
+
+@media  (max-width: 766px) {
+        .sideComment{
+                width: 100%;
+
+        }
+}

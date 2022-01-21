@@ -1,0 +1,70 @@
+.background {
+        width: 940px;
+        margin: auto;
+        border-radius: 12px;
+        height: 400px;
+
+
+        .about_detai {
+                width: 100%;
+                height: auto;
+                background-color: #fff;
+                margin-bottom: 12px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                padding: 12px;
+
+                .about_detai_list {
+                        display: flex;
+                        flex-direction: column;
+                }
+
+                .about_detai_item {
+                        padding: 12px 0;
+                        list-style: none;
+                        color: var(--link-color);
+                        cursor: pointer;
+                        &:hover {
+                                text-decoration: underline;
+                        }
+
+                        .about_link_item {
+                               div{
+                                       display: flex;
+                               }
+
+                               .form_deail_about {
+                                       margin-left: 50px;
+                                       &:hover {
+                                               text-decoration: unset;
+                                       }
+                               }
+
+                               .form_control {
+                                       border: 1px solid #ccc;
+                                       padding: 0 4px;
+                                       width: 70%;
+                                       border-radius: 5px;
+                                       outline: 2px solid var(--link-color);
+                               }
+
+                        }
+
+                        span {
+                                margin-right: 12px;
+                                display: flex;
+                                align-items: center;
+                        }
+
+                        .intro_about_item_detail {
+                                display: flex;
+                                align-items: center;
+
+                        }
+
+
+                }
+        }
+      
+}
+

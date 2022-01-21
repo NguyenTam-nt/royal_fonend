@@ -1,0 +1,110 @@
+.background {
+        width: auto;
+        border-radius: 12px;
+        background-color: #fff;
+        padding: 16px;
+        box-shadow: 1px 1px 2px rgba($color: #000000, $alpha: 0.1), -1px -1px 2px rgba($color: #000000, $alpha: 0.1);
+
+        .intro_about {
+                list-style: none;
+                .intro_about_item {
+                        margin-top: 12px;
+                        display: flex;
+                        align-items: center;
+                        font-size: 16px;
+                }
+                span {
+                        font-weight: 600;
+                }
+                i {
+                        font-size: 24px;
+                        color: #999;
+                        margin-right: 12px;
+                }
+
+                .intro_about_item_btn {
+                        padding: 8px 0;
+                        justify-content: center;
+                        border-radius: 6px;
+                        background-color: #e5e6eb;
+                        color: #333;
+                        font-weight: 600;
+                        font-size: 16px;
+                        cursor: pointer;
+                        user-select: none;
+
+                        &:hover {
+                                background-color: #dcdee2;
+                        }
+                }
+
+        }
+    
+}
+
+
+
+@media (max-width: 780px) {
+        .background {
+                display: flex;
+                width: 100vw;
+                height: 100vh;
+                background-color: #fff;
+                align-items: center;
+                &_login {
+                        display: none;
+                }
+                .register_form {
+                        width: 100%;
+                        height: 100vh;
+                } 
+                .subResgister {
+                        display: none;
+                }
+                
+                .form_login {
+                        position: relative;
+                        display: flex;
+                        justify-content: flex-start;
+                        min-width: 100%;
+                        height: 100vh;
+                        padding: 0 20px;
+                        .form {
+                                min-width: 100%;
+                                height: auto;
+                                display: flex;
+                                flex-direction: column;
+                        }
+
+                        .form_group {
+                                margin-bottom: 30px;
+                        }
+                         .form_sub_title {
+                                 font-size: 14px;
+                                 margin: auto;
+                         } 
+                         .form_remember {
+                                font-size: 14px;
+                         }
+                        //  .form_submit {
+                        //          min-width: 100%;
+                        //          margin-top: 30px;
+                        //  }
+                         .logo_top  {
+                                align-self: center;
+                         }
+                }
+        }
+}
+
+@keyframes sliderLeft {
+        to {
+                transform: translateX(-100%);
+        }
+}
+
+@keyframes sliderRight {
+        to {
+                transform: translateX(100%);
+        }
+}

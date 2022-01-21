@@ -1,0 +1,55 @@
+.input_commented {
+
+        margin-bottom: 10px;
+        max-width: 100%;
+        margin-top: auto;
+        & form {
+                max-width: 100%;
+        }
+}
+
+.form__input_comment {
+        display: flex;
+        // overflow: hidden;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        position: relative;
+
+        
+        .form_control {
+                flex: 1;
+                padding: 12px 8px;
+                border-radius: 50px;
+                outline: none;
+        }
+        .btn__comment {
+                color: rgba($color: #03a9f4, $alpha: 0.4);
+                font-size: 16px;
+                font-weight: 600;
+
+                margin-right: 12px;
+                user-select: none;
+        }
+        .btn__comment_submit {
+                color: #03a9f4;
+                cursor: pointer;
+        }
+
+        .handle_emoji {
+                color: #f1ee38;
+                font-size: 28px;
+                margin-right: 12px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+        }
+
+        .emoji_container {
+                position: absolute;
+                bottom: 100%;
+                right: 50px;
+                background-color: #f1ee38;
+                z-index: 100;
+        }       
+}
