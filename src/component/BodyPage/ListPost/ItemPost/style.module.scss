@@ -1,0 +1,38 @@
+
+.container {
+        // width: 100%;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 2px 3px 4px 3px rgba($color: #000000, $alpha: 0.08);
+        height: auto;
+        min-height: 650px;
+        margin-top: auto;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        overflow: hidden;  
+        
+}
+
+@media (max-width: 666px) {
+                .container {
+                        .background {
+                               padding-left: -15px !important;
+                               padding-right: -15px !important;
+                        }
+
+                }
+
+}
+// @keyframes bellRote {
+//         from {
+//                 transform: rotate(45deg);
+
+//         }
+//                 to {
+//                         transform: rotate(-45deg);                    
+//                 }
+// }
+
+
+
+

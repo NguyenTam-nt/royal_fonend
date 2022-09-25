@@ -1,0 +1,63 @@
+
+        .story_post {
+                font-size: 16px;
+                font-weight: 600;
+                color: #ccc;
+                margin-left: 12px;
+                margin-top: 4px;
+        }
+        .post_liked {
+                display: flex;
+                align-items: center;
+                .post_like_item {
+                        outline: none;
+                }
+                .post_liked_iem {
+                        color: #ffb0b7;
+                        font-size: 24px;
+                }
+                .post_unlike_iem {
+                        color: #ccc;
+                        font-size: 24px;
+                        
+                }
+                .post_like_count {
+                        user-select: none;
+                        cursor: pointer;
+                        margin-right: auto;
+                       &:hover{
+                               text-decoration: underline;
+                       }
+                }
+                .post_time {
+                        color: #ccc;
+                        font-size: 14px;
+                        margin-right: 12px;
+                }
+
+        }
+
+        .story_content {
+                font-size: 16px;
+                font-weight: 500;
+                color: var(--tex-color);
+                margin-left: 28px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                max-height: 200px;
+                overflow-y: auto;
+        }
+
+
+        
+//         from {
+//                 transform: rotate(45deg);
+
+//         }
+//                 to {
+//                         transform: rotate(-45deg);                    
+//                 }
+// }
+
+
+
+

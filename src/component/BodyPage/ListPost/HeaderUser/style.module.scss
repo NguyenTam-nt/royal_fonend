@@ -1,0 +1,43 @@
+.header_post {
+        transition: all 1s ease;
+
+}
+        .header_user_post {
+        display: flex;
+        align-items: center;
+        padding: 0 8px;
+
+        height: 40px;
+        border-bottom: 1px solid #ccc;
+        .header_user_post_img {
+                width: 25px;
+                height: 25px;
+                object-fit: cover;
+                border-radius: 50%;
+                margin-right: 12px;
+        }
+        .header_user_post_name {
+                font-size: 14px;
+                color: var(--text-color);
+                font-weight: 600;
+        }
+
+        .header_user_post_iconb {
+               margin-left: auto;
+               border: none;
+               outline: none;
+        }
+}
+// @keyframes bellRote {
+//         from {
+//                 transform: rotate(45deg);
+
+//         }
+//                 to {
+//                         transform: rotate(-45deg);                    
+//                 }
+// }
+
+
+
+

@@ -1,0 +1,141 @@
+
+    .send__message_right {
+        width: calc(100% - 33.3333%);
+       height: 550px;
+       display: flex;
+       flex-direction: column;
+
+    
+}
+
+    .send__message_header{
+        width: 100%;
+       height: 60px;
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+            justify-content: center;
+        
+    }
+    .send__message_header_item {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .send__message_body {
+        flex: 1;
+        border: 1px solid #ccc;
+        // padding: 12px 0;
+
+    }
+
+    .send__message_body_item {
+        padding: 4px 20px;
+        background-color: #e5e6eb;
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+
+    .send__message_body_massage {
+        width: 100%;
+        
+    }
+    .send__message_body_massage {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .send__message_body_massage_box {
+        flex: 1;
+        max-height: 420px;
+        padding: 12px 20px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position: relative;
+        margin-bottom: auto;
+
+    }
+
+
+    .send__message_body_massage_box_children {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .send__message_body_massage_box_left {
+          align-self: flex-start;
+            max-width: 60%;
+       margin-bottom: 12px;
+       display: flex;
+       flex-direction: column;
+
+            .send__message_body_massage_box_item {
+                width: auto;
+                height: auto;
+                display: inline-block;
+                align-self: flex-start;
+                margin-bottom: 8px;
+                background-color: #e5e6eb;
+                border-radius: 0 16px 16px 16px ;
+                    padding: 8px;
+            }
+    }
+    .send__message_body_massage_box_right {
+       align-self: flex-end;     
+       margin-bottom: 12px;
+       max-width: 60%;
+       display: flex;
+       flex-direction: column;
+  
+        .send__message_body_massage_box_item {
+            width: auto;
+            height: auto;
+            align-self: flex-end;
+            margin-bottom: 8px;
+            display: inline-block;
+            background-color: #e5e6eb;
+            position: relative;
+            border-radius: 16px 0px 16px 16px ;
+            color: #fff;
+            background-color: rgb(235, 18, 188);
+            padding: 8px;
+        }
+
+        
+}
+
+    .send__message_body_massage_inpt {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: 10;
+    }
+    .send__message_body_massage_box_item_img {
+        background-color: transparent;
+    }
+
+    .message__img {
+        width: auto;
+         height: 300px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .message__video {
+        width: auto;
+        height:300px ;
+        max-height: 300px;
+        max-width: 100%;
+        border-radius: 12px;
+    }
+
+
+
+
+

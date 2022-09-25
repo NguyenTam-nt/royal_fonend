@@ -1,0 +1,27 @@
+.backgound {
+        width: 100%;
+        height: auto;
+        position: relative;
+        transform: translateY(-24px);    
+        
+
+        .container{ 
+                margin: auto;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+        }
+
+        .body_detail {
+                width: 940px;
+                margin: auto;
+                margin-top: 24px;
+        }
+}
+
+@media  (max-width: 766px) {
+        .sideComment{
+                width: 100%;
+
+        }
+}

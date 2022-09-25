@@ -1,0 +1,87 @@
+.background {
+        width: 400px;
+        height: 400px;
+        background-color: #fff;
+        padding: 0 12px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        .header_edi_profile {
+                display: flex;
+                align-items: center;
+                padding: 12px 0;
+                border-bottom: 1px solid #ccc;
+                // justify-content: space-between;
+                h4 {
+                        // flex: 1;
+                        font-weight: 700;
+                        margin-left: auto;
+                       
+                }
+
+                .icon_btn_profile {
+                        font-size: 24px;
+                        background-color: #f5f5f5;
+                        outline: none;
+                        border: none;
+                        color: #333;
+                        margin-left: auto;
+                }
+        }
+
+        .body_edit_profile {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+    
+
+                .img_profile_item{
+                                height: 50px;
+                                width: auto;
+                                object-fit: cover;
+                }
+                 .body_edit_profile__profile{
+                        flex: 1;
+                        display: flex;
+                        align-items: center;
+                        border-bottom:  1px solid #ccc;
+                        justify-content: space-around;
+                }
+                .label_profile {
+                        padding: 8px 20px;
+                        height: 40px;
+                        display: flex;
+                        justify-content: center;
+                        border-radius: 8px;
+                        background-color: #f5f5f5;
+                        color: var(--link-color);
+                        font-size: 16px;
+                        font-weight: 600;
+                        user-select: none;
+                        cursor: pointer;
+                }
+
+        }
+
+        .btn_save {
+                padding: 6px 12px;
+                border: none;
+                outline: none;
+                float: right;
+                background-color: var(--link-color);
+                border-radius: 5px;
+                margin: 12px 0;
+                cursor: pointer;
+                font-weight: 600;
+        }
+        .btn_save_error {
+                background-color: #f5f5f5;
+                color: #ccc;
+                cursor: no-drop;
+        }
+
+}
+
+
+

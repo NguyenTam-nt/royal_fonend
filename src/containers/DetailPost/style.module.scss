@@ -1,0 +1,77 @@
+.backgound {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 14;
+        background-color: #fff;
+
+     
+       
+        
+      
+        
+        .animation_background {
+                position: absolute;
+                top: -2000px;
+                left: -1000px;
+                width: 5000px;
+                height: 5000px;
+                z-index: -1;
+                // background-color: #000;
+        
+   
+        }
+        
+        .backgound_image {
+                width: 100%;
+                height: 100%;
+                background-color: rgba($color: #000000, $alpha: 0.7);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        }
+      
+        .arrow_goback {
+                position: absolute;
+                top: 70px;
+                left: 20px;
+                color: #fff;
+                cursor: pointer;
+        }
+
+        .backgound_item {
+                width: 900px;
+                height: 600px;
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 0 20px rgba($color: #000000, $alpha: 0.2);
+        }
+
+        .sideComment {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                width: 100%;
+                height: 100%;
+        }
+}
+
+@keyframes animated {
+        0% {
+             transform: rotate(0deg);
+        }
+        100% {
+                transform: rotate(360deg);
+
+
+        }
+}
+
+@media  (max-width: 766px) {
+        .sideComment{
+                width: 100%;
+
+        }
+}

@@ -1,0 +1,161 @@
+.form_add__post {
+        width: 500px;
+        height: 600px;
+        background-color: #fff;
+        border-radius: 12px;
+        animation: scaleFormModal linear 0.2s;
+        .form_add_title {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50px;
+                color: var(--tex-color);
+                font-size: 18px;
+                font-weight: 600;
+                
+                border-bottom: 1px solid var(--primary-color) ;
+                .form_add_title_text {
+                        flex: 1;
+                        text-align: center;
+                        
+                }
+
+                .form_add__icon {
+                        justify-self: right;
+                        margin-right: 8px;
+                }
+        }
+
+
+        .form_add__user {
+                height: 40px;
+                display: flex;
+                align-items: center;
+                    
+        }
+        .form_add__post_pri {
+               display:flex;
+               align-items:center;
+               justify-content:center;
+               flex-direction:column;
+               position: relative;
+        }
+        .form_add_post_img_change {
+                display: block;
+                width: 90%;
+                height: 300px;
+                margin-bottom: 20px;
+                border-radius: 12px;
+                overflow: hidden;
+
+                .form__img_change {
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+                }
+        }
+        .btn__show_post_img {
+                display: block;
+                width: 90%;
+                height: 300px;
+                background-color: transparent;
+                position: absolute;
+                top: 0;
+
+
+               display:flex;
+               align-items:center;
+               color: #fff;
+               justify-content:center;
+               flex-direction:column;
+                border-radius: 12px;
+                cursor: pointer;
+
+                .btn__show_post_img_iem {
+                        font-size: 32px;
+                }
+                .btn__show_post_img_text {
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: var(--tex-color);
+                }
+
+        }
+        .add_post_pri_content {
+                width: 90%;
+                height: 120px;
+                overflow: hidden;
+                border: 1px solid #ccc;
+                border-radius: 12px;
+                padding: 0 12px;
+        }
+        .add_post_pri_text_content {
+                width: 100%;
+                border: none;
+                 outline: none;    
+                 color: var(--tex-color);
+                 font-size: 16px;
+                 font-weight: 600;
+
+        }
+        .form_add_submit {
+                width: 90%;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                
+        }
+        .form_add__post_public {
+                display: flex;
+        }
+        .background_public {
+                width: 50px;
+                height: 25px;
+                display: flex;
+                align-items: center;
+                background-color: #f5f5f5;
+                border-radius: 12px;
+                position: relative;
+                border: 1px solid #0003;
+
+
+                .tongo_public {
+                        position: absolute;
+                        width: 20px;
+                        height: 20px;
+                        cursor: pointer;
+
+                        border-radius: 50%;
+                        background-color:#fff;
+                        box-shadow: 1px 1px 2px 2px rgba($color: #000000, $alpha: 0.2);
+                        user-select: none;
+                        // box-shadow: 3px 4px 3px 0px rgba($color: #000000, $alpha: 0.2);
+                }
+        }
+
+        .btn {
+                padding: 4px 24px;
+                color: #fff;
+                font-size: 16px;
+                border-radius: 4px;
+                outline: none;
+                border: none;
+                font-weight: 600;
+                background-color: var(--primary-color);
+        }
+        .form_add__post_public_text {
+                font-size: 16px;
+                font-weight: 600;
+                color: var(--tex-color);
+                margin-left: 12px;
+        }
+}
+
+@keyframes scaleFormModal {
+        from {
+                transform: scale(0);
+        }
+        to {
+                transform: scale(1);
+        }
+}

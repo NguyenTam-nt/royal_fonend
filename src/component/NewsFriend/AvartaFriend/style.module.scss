@@ -1,0 +1,40 @@
+          
+        .news_friend_avarta {
+               width: 100%;
+               overflow: hidden;
+               height: 38px;    
+               margin-bottom: auto;
+               display: flex;
+               margin-left: 16px;
+               padding: 4px 0;
+               .news_friend_item_top {
+                       margin-right: 12px;
+                       position: relative;
+                       &::after {
+                        content: "";
+                        position: absolute;
+                        left: 21px;
+                        bottom: 0;
+
+                        display: block;
+                        width: 10px;
+                        height: 10px;
+                        border: 2px solid #fff;
+                        border-radius: 100rem;
+                        background-color: #33a04d;
+                        z-index: 2;
+                }
+
+                .item_user_friend_img {
+                        border-radius: 100rem;
+                        width: 30px;
+                        height: 30px;
+                        object-fit: cover;
+                       
+                }
+               }
+        }
+               
+
+
+

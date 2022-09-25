@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins&display=swap");
+:root {
+        --primary-color: #2f285c;
+        --text-color: #333;
+        --textSecon-color: #ffeb3b;
+        --online-color: #33a04d;
+        --link-color: #62a3f7;
+        --header-height: 70px;
+        --header-width: 100%;
+
+}
+
+* {
+        border: 0;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+html {
+        scroll-behavior: smooth;
+        font-family: "Poppins", sans-serif;
+}
+
+body {
+        position: relative;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+       background-color: #f5f5f5;
+}
+::-webkit-scrollbar {
+        width: 8px;
+}
+
+::-webkit-scrollbar-track {
+        /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  */
+        border-radius: 12px;
+
+}
+
+::-webkit-scrollbar-thumb {
+        border-radius: 12px;
+        height: 70px;
+        background-color: #272242;
+        /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);  */
+    } 
+
+#drop {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+
+        z-index: -1;
+}
+.royal_avarta_online {
+        position: relative;
+        width: auto;
+        height: auto;
+        margin-left: 8px;
+        margin-right: 12px;
+}
+
+.royal_avata_online_sm {
+        border-radius: 100rem;
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+
+}
+.royal_avarta_online::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        background-color: var(--online-color) ;
+
+        bottom: 0;
+        right: 0;
+
+}
+.royal_username{
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--text-color);
+}
+
+

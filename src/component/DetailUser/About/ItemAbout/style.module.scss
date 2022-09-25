@@ -1,0 +1,120 @@
+
+                .about_detai_item {
+                        padding: 12px 0;
+                        list-style: none;
+                        color: var(--link-color);
+                        cursor: pointer;
+                        position: relative;
+                        // &:hover {
+                        //         text-decoration: underline;
+                        // }
+
+                        .form_deail_about {
+                                margin-left: 50px;
+                                display: flex;
+                               
+                        }
+
+                        .form_control {
+                                border: 1px solid #ccc;
+                                padding: 0 4px;
+                                width: 70%;
+                                border-radius: 5px;
+                                outline: 2px solid var(--link-color);
+                        }
+
+                        .intro_about_item_detail {
+                                display: flex;
+                                color: var(--text-color);
+                                font-size: 18px;
+                              
+                                i {
+                                        margin-right: 12px;
+                                        font-weight: 600;
+                                        font-size: 20px;
+                                        color: #737b88;
+
+                                }
+                                span {
+                                        font-weight: 600;
+                                }
+
+                                .about_icon {
+                                        margin-left: auto;
+                                        margin-right: 50px;
+                                        background-color: #f5f5f5;
+                                        outline: none;
+                                        position: relative;
+                                }
+
+                                .dialog_handle_about {
+                                        position: absolute;
+                                        right: 40px;
+                                        top: 60px;
+                                        background-color: #fff;
+                                        padding: 4px;
+                                        width: 345px;
+                                        height: 90px;
+                                        z-index: 2;
+                                        box-shadow: 5px 5px 10px 5px  rgba($color: #000000, $alpha: 0.1);
+                                        border-radius: 8px;
+                                        display: flex;
+                                        flex-direction: column;
+
+                                        &::before {
+                                                content: "";
+                                                position: absolute;
+                                                display: block;
+                                                border-style: solid;
+                                                border-width: 10px;
+                                                border-color: transparent transparent #fff transparent;
+                                                background-color: transparent;
+                                                top: -20px;
+                                                right: 20px;
+                                                z-index: 1;
+                                        }
+
+                                        .dialog_handle_about_item {
+                                                flex: 1;
+                                                display: flex;
+                                                align-items: center;
+                                                color: var(--text-color);
+                                                font-size: 17px;
+                                                font-weight: 600;
+                                                i {
+                                                        margin-right: 12px;
+                                                        color: var(--text-color);
+                                                }
+                                                &:hover {
+                                                        background-color: #f5f5f5;
+                                                        border-radius: 8px;
+                                                }
+                                        }
+
+
+                                }
+                        }
+
+                        .about_link_item {
+                               div{
+                                       display: flex;
+                               }
+
+                              
+
+                        }
+
+                        span {
+                                margin-right: 12px;
+                                display: flex;
+                                align-items: center;
+                        }
+
+                        .intro_about_item_detail {
+                                display: flex;
+                                align-items: center;
+
+                        }
+
+
+                }       

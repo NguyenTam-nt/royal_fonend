@@ -1,0 +1,22 @@
+.PostContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(58, 57, 57);
+        height: 600px;
+}
+
+.background__img {
+        width: 100%;
+        height: auto;
+        max-height: 600px;
+        object-fit: cover;
+        transition: all 1s ease;
+        
+}
+
+@media screen and (max-width: 760){
+        .background__img{
+                max-height: 560px;
+        }
+}

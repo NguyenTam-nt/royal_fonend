@@ -1,0 +1,89 @@
+
+.container {
+        width: auto;
+        height: auto;
+        border-radius: 12px;
+        padding: 4px 12px;
+
+
+        .friend_title {
+                margin-bottom: 20px;
+                padding: 8px 0;
+
+                display: flex;
+                align-items: center;
+
+
+                .friend_title_text {
+                        color: var(--primary-color);
+                        font-size: 18px;
+                        font-weight: 600;
+                        padding: 0 12px;
+        
+                }
+                .friend_title_icon {
+                        margin-left: auto;
+                        margin-right: 12px;
+                        outline: none;
+                        
+
+
+                }
+
+        }
+
+
+        .item_user_friend {
+                display: flex;
+                // justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+                position: relative;
+
+                &::after {
+                        content: "";
+                        position: absolute;
+                        left: 20px;
+                        bottom: 0;
+
+                        display: block;
+                        width: 10px;
+                        height: 10px;
+                        border: 2px solid #fff;
+                        border-radius: 100rem;
+                        background-color: #33a04d;
+                        z-index: 10;
+                }
+
+        }
+        .item_user_friend_name {
+                        font-size: 14px;
+                        color: var(--text-color);
+                        font-weight: 600;
+                        margin-left: 12px;
+        }
+
+        .item_user_friend_img {
+                border-radius: 100rem;
+                width: 30px;
+                height: 30px;
+                object-fit: cover;
+                position: relative;
+        }
+
+
+}
+
+
+@media (max-width: 760px) {
+        .container {
+                display: none;
+        }
+
+}
+
+@media (min-width: 761px) and (max-width: 980px) {
+        .container {
+                right: 70px;
+        }
+}
