@@ -16,6 +16,7 @@ import AboutContainer from "../DetailUserContainer/AboutContainer";
 import FriendsContainer from "../DetailUserContainer/FriendsContainer";
 
 function App(props) {
+console.log("hello would");
   return (
     <BrowserRouter>
       <Animation />
